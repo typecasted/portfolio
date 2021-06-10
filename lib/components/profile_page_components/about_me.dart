@@ -39,7 +39,7 @@ class AboutMeLarge extends StatelessWidget {
             child: Container(
               width: ResponsiveWidget.isLargeScreen(context) ? SizeConfig().width(context) * 0.5 : SizeConfig().width(context) * 0.8,
               child: Text(
-                'Hello world, I am Kunal Pithadiya. I am Flutter developer.\nI have been developing Flutter apps for almost two year now.\nI can make some elegant UIs along with the support of back-end.',
+                'Hello world, As I told you before myself Kunal Pithadiya and I am Flutter developer.\nI have been developing Flutter apps for almost two year now.\nI can make some elegant UIs along with the support of back-end.',
                 style: ResponsiveWidget.isLargeScreen(context)
                     ? TextStyle(
                   fontSize: SizeConfig().height(context) * 0.03,
@@ -79,7 +79,7 @@ class AboutMeSmall extends StatelessWidget {
           child: Container(
             width: SizeConfig().width(context) * 0.8,
             child: Text(
-              'Hello world, I am Kunal Pithadiya. I am Flutter developer.\nI have been developing Flutter apps for almost two year now.\nI can make some elegant UIs along with the support of back-end.',
+              'Hello world, As I told you before myself Kunal Pithadiya and I am Flutter developer.\nI have been developing Flutter apps for almost two year now.\nI can make some elegant UIs along with the support of back-end.',
               style: TextStyle(
                 fontWeight: FontWeight.w600,
                 fontSize: SizeConfig().height(context) * 0.025,

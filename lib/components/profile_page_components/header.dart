@@ -41,9 +41,9 @@ class _HeaderState extends State<Header> {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(100),
                 image: DecorationImage(
-                  image: widget._image,
-                  fit: BoxFit.fill,
-                ),
+                  image: logoImage,
+                )
+
               ),
             ),
             Spacer(),
@@ -167,7 +167,7 @@ class HeaderSmall extends StatelessWidget {
                   children: [
                     GestureDetector(
                       onTap: () {
-                        scrollController.position.animateTo(SizeConfig().height(context) * 1.65,
+                        scrollController.position.animateTo(SizeConfig().height(context) * 1.58,
                             duration: Duration(milliseconds: 900),
                             curve: Curves.linear);
                       },

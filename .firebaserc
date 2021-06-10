@@ -1,0 +1,5 @@
+{
+  "projects": {
+    "firebase deploy --only hosting": "kunal-pithadiya"
+  }
+}

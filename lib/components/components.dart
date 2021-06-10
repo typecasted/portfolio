@@ -21,8 +21,8 @@ TextStyle headerButtonTextStyle = TextStyle(
     color: Colors.black
 );
 
-AssetImage logoImage = AssetImage('images/KP_Logo.png');
-AssetImage myImage = AssetImage('images/mypic.jpeg');
-AssetImage gitIcon = AssetImage('images/github_icon.png');
-AssetImage linkedInIcon = AssetImage('images/LinkedIn_icon.png');
-AssetImage fiverrIcon = AssetImage('images/fiverr_logo.png');
+AssetImage logoImage = AssetImage('assets/images/KP_logo.png');
+AssetImage myImage = AssetImage('assets/images/mypic.jpeg');
+AssetImage gitIcon = AssetImage('assets/images/github_icon.png');
+AssetImage linkedInIcon = AssetImage('assets/images/Linkedin_icon.png');
+AssetImage fiverrIcon = AssetImage('assets/images/fiverr_logo.png');
