@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:portfolio/utils/size_config.dart';
-import 'dart:html' as html;
 import '../components.dart';
 import '../responsive_widget.dart';
 
